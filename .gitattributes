@@ -1,0 +1,13 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Python files
+*.py text eol=lf
+*.ipynb text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# CSV files (keep as-is but normalized)
+*.csv text eol=lf
